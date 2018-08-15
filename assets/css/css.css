@@ -79,7 +79,7 @@ nav a {
 	text-decoration: none;
 	margin-left: 15px;
 	display: inline-block;
-	border-left: 1px solid #efefef;
+	
 	padding-left: 15px;
 	line-height: 18px;
 }
@@ -202,7 +202,7 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
 	#masthead, #main-container{
 		width: 100%;
 	}
@@ -262,4 +262,14 @@ input[type=submit] {
 	.portfolio{
 		width:100%;
 	}
-}	
+}
+@media screen and (max-width: 568px){
+	nav{
+		
+		width:50%;
+		float: left;
+		
+		
+}
+	
+}
